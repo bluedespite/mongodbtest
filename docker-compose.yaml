@@ -20,6 +20,7 @@ services:
 
   mongoclient:
     build: .
+    container_name: mongoclient
     networks:
       - mongo_net
     depends_on:
